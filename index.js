@@ -43,6 +43,3 @@ window.addEventListener('scroll', scrollHandler);
 window.addEventListener('load', resetCounters);
 
 
-AOS.init({
-    duration: 1200,
-  })

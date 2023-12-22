@@ -151,13 +151,12 @@
   }
 
   .cad2{
-    height: 200px;
-    width: 300px;
-    background-color: white;
-    border-radius: 10px;
+    width: 18rem;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background-color: #FFF;
+  /* text-align: center; */
+  color: #FFF;
+  font-size: 3em;
   }
-  .fadee{
-    animation: fade-in linear;
-    animation-timeline: view(250);
-  }
-  @keyframes{}
