@@ -1,0 +1,163 @@
+
+.slider_bg_1 {
+    background-image: url(../img/hompage/banner.png);
+  }
+
+  .slider_area .single_slider {
+    height: 960px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  @media (max-width: 767px){
+    .slider_area .single_slider {
+      height: 500px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .slider_area .single_slider {
+      height: 700px;
+    }
+  }
+
+  .slider_area .single_slider .slider_text > span {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    display: block;
+  }
+  
+  .slider_area .single_slider .slider_text h3 {
+    color: #fff;
+    font-family: "Work Sans", sans-serif;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 85px;
+    margin-top: 22px;
+    margin-bottom: 42px;
+  }
+  
+  .slider_area .single_slider .slider_text h3 span {
+    font-weight: 700;
+  }
+
+  .counter {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .counter-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  @media (max-width: 767px) {
+    .slider_area .single_slider .slider_text h3 {
+      font-size: 33px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .slider_area .single_slider .slider_text h3 {
+      font-size: 55px;
+      line-height: 65px;
+    }
+  }
+  
+  .slider_area .single_slider .slider_text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .slider_area .single_slider .slider_text p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 767px){
+    .slider_area .single_slider .slider_text p {
+      font-size: 16px;
+    }
+  }
+
+
+
+  .bg2{
+    background-color: antiquewhite;
+    height: 600px;
+  }
+
+  @media (max-width: 767px) {
+    .bg2 {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .bg2 {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+
+  .text1{
+    padding-top: 100px;
+  }
+
+  .cad{
+    height: 80px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .cad_space{
+    margin-left: 50px;
+  }
+
+  .flex1{
+    display: flex;
+ 
+  }
+
+  .flex2{
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .mx{
+    margin-left: 400px;
+    margin-top: 40px;
+  }
+  .mxx{
+    margin-left: 400px;
+  }
+
+  .bg3{
+    background-color: greenyellow;
+    height: 900px;
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .cad2{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .fadee{
+    animation: fade-in linear;
+    animation-timeline: view(250);
+  }
+  @keyframes{}
