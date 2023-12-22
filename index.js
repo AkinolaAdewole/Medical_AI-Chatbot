@@ -59,7 +59,7 @@ function isInViewport(element) {
 
 // Function to handle scroll event
 function handleScroll() {
-  const card = document.querySelector('.card');
+  const card = document.querySelector('.card1');
   if (isInViewport(card)) {
     card.classList.add('flip-out'); // Add the 'flip-out' class when in viewport
   }
