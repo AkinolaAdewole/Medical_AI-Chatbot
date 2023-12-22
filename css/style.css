@@ -173,14 +173,23 @@
   .cad2{
     width: 18rem;
   height: 200px;
-  margin: 50px auto;
-  padding-top: 75px;
+  /* margin: 50px auto;
+  padding-top: 75px; */
   background-color: #FFF;
   perspective: 1000px;
   color: #FFF;
   font-size: 3em;
   }
 
+  .margin1{
+    margin: 30px auto;
+    /* padding-left: 50px; */
+    margin-left: 200px;
+  }
+
+  .flexx{
+    display: flex;
+  }
   .cad2_space{
-    margin-left: 50px;
+    margin-left: 10px;
   }

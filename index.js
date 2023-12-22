@@ -48,25 +48,27 @@ window.addEventListener('load', resetCounters);
 
 // Function to check if an element is in the viewport
 function isInViewport(element) {
-  const bounding = element.getBoundingClientRect();
+  const rect = element.getBoundingClientRect();
   return (
-    bounding.top >= 0 &&
-    bounding.left >= 0 &&
-    bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-    bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
 }
 
-// Function to handle scroll event
+// Function to handle the scroll event
 function handleScroll() {
   const card = document.querySelector('.card1');
+
   if (isInViewport(card)) {
-    card.classList.add('flip-out'); // Add the 'flip-out' class when in viewport
+    card.classList.add('show'); // Add the 'show' class if card is in the viewport
   }
 }
 
-// Add a scroll event listener to trigger animation
+// Add a scroll event listener to trigger the animation
 window.addEventListener('scroll', handleScroll);
 
-// Initial check on page load
-document.addEventListener('DOMContentLoaded', handleScroll);
+// Initial check in case the element is already in the viewport on page load
+handleScroll();
+
