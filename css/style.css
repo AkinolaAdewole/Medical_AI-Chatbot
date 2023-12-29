@@ -8,6 +8,23 @@
     background-image: url(../img/hompage/banner.png);
   } */
 
+  .bg1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 68rem;
+    z-index: -5;
+    overflow: hidden;
+  }
+
+.bg1 img {
+    width: 90rem;
+    height: auto;
+    object-fit: cover;
+    transform: translate(-1%, -15%);
+}
+
   .heroNav{
     background-color: rgba(247, 244, 242, 1);
   }
