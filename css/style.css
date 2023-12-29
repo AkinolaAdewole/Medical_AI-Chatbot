@@ -35,6 +35,13 @@
     background-repeat: no-repeat;
     background-position: center center;
   }
+
+  .empathetic1{
+    color: #4B3425;
+  }
+  .ai{
+    color: #FE814B;
+  }
   
   @media (max-width: 767px){
     .slider_area .single_slider {
