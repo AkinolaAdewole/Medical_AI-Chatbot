@@ -29,12 +29,26 @@
     background-color: rgba(247, 244, 242, 1);
   }
 
-  .slider_area .single_slider {
-    height: 960px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
+  .hero {
+    margin-top: 10rem;
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+}
+
+.heroCaption {
+  background-color: transparent;
+  width: 40%;
+  height: fit-content;
+  padding: 1rem;
+}
 
   .empathetic1{
     color: #4B3425;
@@ -102,13 +116,8 @@
     }
   }
   
-  .slider_area .single_slider .slider_text p {
-    font-size: 18px;
-    font-weight: 400;
-    color: #727272;
-    margin-bottom: 40px;
-    margin-top: 10px;
-  }
+
+
   
   @media (min-width: 992px) and (max-width: 1200px) {
     .slider_area .single_slider .slider_text p {
