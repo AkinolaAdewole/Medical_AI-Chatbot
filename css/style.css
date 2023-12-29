@@ -8,6 +8,9 @@
     background-image: url(../img/hompage/banner.png);
   } */
 
+  .heroNav{
+    background-color: rgba(247, 244, 242, 1);
+  }
 
   .slider_area .single_slider {
     height: 960px;
