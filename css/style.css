@@ -105,6 +105,43 @@
   letter-spacing: -0.2px;
 }
 
+.heroButton {
+  width: 100%;
+  height: fit-content;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hoverB {
+  /* background: #a370f0; */
+  color: #4B3425;
+  font-family: inherit;
+  border: none;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: fit-content;
+  padding-right: 100px;
+  cursor: pointer;
+  font-family: Urbanist;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  padding: 15px;
+  border-radius: 1000px;
+}
+
+.heroButton .button1 {
+  width: 120px;
+  color: #4B3425;
+  border: solid 1px #4B3425;
+  background-color: #FFF;
+}
   
   @media (max-width: 767px){
     .slider_area .single_slider {
