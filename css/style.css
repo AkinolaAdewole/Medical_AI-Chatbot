@@ -142,7 +142,17 @@
   border: solid 1px #4B3425;
   background-color: #FFF;
 }
-  
+
+.heroPoster {
+  align-self: flex-start;
+  padding: 0;
+  width: 450px;
+  height: 700px;
+  background-image: url(../img/phone.png);
+  background-size: cover;
+  padding: 20px;
+}
+
   @media (max-width: 767px){
     .slider_area .single_slider {
       height: 500px;
