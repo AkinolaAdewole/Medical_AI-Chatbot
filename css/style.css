@@ -54,6 +54,16 @@
   padding: 1rem;
 }
 
+.heroCaption .div1 {
+  width: fit-content;
+  height: fit-content;
+  padding: 0px 7px;
+  display: flex;
+  align-items: center;
+  border-radius: 1234px;
+  background-color: #E8DDD9;
+}
+
   .empathetic1{
     color: #4B3425;
   }
