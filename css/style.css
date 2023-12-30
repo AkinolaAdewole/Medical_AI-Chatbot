@@ -64,6 +64,16 @@
   background-color: #E8DDD9;
 }
 
+.div1 p {
+  font-family: Urbanist;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
   .empathetic1{
     color: #4B3425;
   }
