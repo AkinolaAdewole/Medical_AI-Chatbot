@@ -74,12 +74,37 @@
   text-transform: uppercase;
   margin-left: 10px;
 }
-  .empathetic1{
-    color: #4B3425;
-  }
-  .ai{
-    color: #FE814B;
-  }
+
+.heroCaption h1 {
+  position: relative;
+  color: #4B3425;
+  font-family: Urbanist;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -2.88px;
+  word-wrap: break-word;
+  margin-bottom: -20px;
+  z-index: 2;
+}
+
+.heroCaption h1 span {
+  position: relative;
+  color: #FE814B;
+}
+
+.heroCaption h5 {
+  align-self: stretch;
+  color: #1f160fa3;
+  font-family: Urbanist;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.2px;
+}
+
   
   @media (max-width: 767px){
     .slider_area .single_slider {
