@@ -217,6 +217,18 @@
 padding-top: 100px;
 }
 
+.bg2 .stats {
+  width: 70%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+}
+
 .cad{
 height: 80px;
 width: 300px;
