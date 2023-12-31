@@ -169,6 +169,16 @@
   z-index: 5;
 }
 
+.mx-1 {
+  margin-right: 0.25rem!important;
+  margin-left: 0.25rem!important;
+}
+
+.links {
+  border-radius: 30px;
+  position: relative;
+}
+
   @media (max-width: 767px){
     .slider_area .single_slider {
       height: 500px;
