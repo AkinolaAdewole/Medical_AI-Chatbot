@@ -201,6 +201,15 @@
   background-color: #E8DDD9;
 }
 
+.psych {
+  border-radius: 1000px;
+}
+
+.mxx-1 {
+  margin-right: 0.25rem!important;
+  margin-left: 0.25rem!important;
+}
+
 .text1{
 padding-top: 100px;
 }
