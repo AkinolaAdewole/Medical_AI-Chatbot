@@ -180,8 +180,25 @@
 }
 
 .bg2 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 70px 90px;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F4F2;
+}
+
+.bg2 .purpose {
+  width: fit-content;
+  height: fit-content;
+  padding: 0px 7px;
+  display: flex;
+  align-items: center;
+  border-radius: 1234px;
+  background-color: #E8DDD9;
 }
 
 .text1{
@@ -218,7 +235,7 @@ padding-top: 10px;
 margin-left: 400px;
 margin-top: 40px;
 }
-.mxx{
+.mxx1{
 margin-left: 400px;
 }
 
