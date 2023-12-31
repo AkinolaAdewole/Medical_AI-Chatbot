@@ -217,7 +217,7 @@
 padding-top: 100px;
 }
 
-.bg2 .stats {
+.bg2 .statz {
   width: 70%;
   height: fit-content;
   display: flex;
@@ -238,6 +238,16 @@ border-radius: 10px;
 
 .cad_space{
 margin-left: 50px;
+}
+
+.counter{
+  color: #4B3425;
+    font-family: Urbanist;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin: -10px 0 -10px 0;
 }
 
 .flex1{
