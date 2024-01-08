@@ -329,14 +329,15 @@ margin-left: 400px;
 
 .bg3 .firstDiv p {
   color: #3D4A26;
-  font-family: Urbanist;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  letter-spacing: 1.2px;
-  text-transform: uppercase;
-  margin-left: 10px;
+    font-family: Urbanist;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 15px;
 }
 
 /* Style for the card */
