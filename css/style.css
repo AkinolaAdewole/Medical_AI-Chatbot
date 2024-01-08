@@ -395,4 +395,56 @@ margin-left: 400px;
   fill: #E5EAD7;
 }
 
+.features h5 {
+  align-self: stretch;
+  color: #4B3425;
+  font-family: Urbanist;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.48px;
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+
+.features p {
+  align-self: stretch;
+  color: rgba(31, 22, 15, 0.64);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.18px;
+  margin-bottom: -10px;
+}
+
+.features .learnButton {
+  width: 150px;
+  background-color: #FFF;
+  font-size: 14px;
+}
+.hoverButton {
+  /* background: #a370f0; */
+  color: #4B3425;
+  font-family: inherit;
+  border: none;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: fit-content;
+  padding-right: 100px;
+  cursor: pointer;
+  font-family: Urbanist;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  padding: 15px;
+  border-radius: 1000px;
+}
+
 
