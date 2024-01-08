@@ -356,6 +356,17 @@ margin-left: 400px;
     line-height: 68px;
     letter-spacing: -1.8px;
 }
+
+.bg3 .featuresText p {
+  color: #E5EAD7;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
 /* Style for the card */
 .card1 {
 transition: transform 2s; /* Adding transition for smooth animation */
