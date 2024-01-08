@@ -302,10 +302,25 @@ margin-left: 400px;
 }
 
 .bg3{
-background-color: greenyellow;
-height: 900px;
-width: 100%;
-border-radius: 30px;
+  border-radius: 56px;
+  background-color: #9BB068;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+  margin-bottom: 70px;
+}
+
+.bg3 .firstDiv {
+  background-color: #CFD9B5;
+  width: fit-content;
+  height: fit-content;
+  padding: 0px 7px;
+  display: flex;
+  align-items: center;
+  border-radius: 1234px;
 }
 
 /* Style for the card */
