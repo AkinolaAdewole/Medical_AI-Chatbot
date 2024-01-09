@@ -497,7 +497,7 @@ margin-left: 400px;
     text-transform: uppercase;
     margin-left: 10px;
 }
-.assessment .poster>p {
+.assessment .assess>p {
   align-self: stretch;
   color: rgba(31, 22, 15, 0.64);
   font-family: Urbanist;
@@ -507,5 +507,13 @@ margin-left: 400px;
   line-height: 160%;
   letter-spacing: -0.2px;
   margin: -50px 0 -20px 0;
+}
+
+.assessment .assess .numbers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 64px;
+  align-self: stretch;
 }
 
