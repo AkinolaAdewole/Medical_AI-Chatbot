@@ -539,6 +539,13 @@ margin-left: 400px;
   align-self: stretch;
 }
 
+.imagePoster {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
 .imagePosterBackground {
   position: absolute;
   top: 50%;
@@ -549,4 +556,16 @@ margin-left: 400px;
   background-color: #4B3425;
   border-radius: 50%;
   z-index: 1;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 250px;
+  height: 550px;
+  z-index: 2;
 }
