@@ -461,4 +461,51 @@ margin-left: 400px;
   transition: all 0.3s;
 }
 
+.hoverButton .buttonIcon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+}
+
+.assessment {
+  padding: 100px 40px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.benefit{
+  background-color: #E8DDD9;
+    width: fit-content;
+    height: fit-content;
+    padding: 0px 7px;
+    display: flex;
+    align-items: center;
+    border-radius: 1234px;
+}
+
+.assessment .assess .benefit p{
+  color: #4B3425;
+    font-family: Urbanist;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.assessment .poster>p {
+  align-self: stretch;
+  color: rgba(31, 22, 15, 0.64);
+  font-family: Urbanist;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.2px;
+  margin: -50px 0 -20px 0;
+}
 
