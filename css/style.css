@@ -569,3 +569,21 @@ margin-left: 400px;
   height: 550px;
   z-index: 2;
 }
+
+.assess .checks div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+.assess .checks div p {
+  color: #4B3425;
+  font-family: Urbanist;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
