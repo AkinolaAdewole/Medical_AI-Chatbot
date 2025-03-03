@@ -2,23 +2,23 @@
 const counters = document.querySelectorAll('.counter');
 
 // Function to handle the counter animation
-function animateCounter(counter) {
-  const target = +counter.getAttribute('data-target');
-  const increment = target / 100;
+const mongoose = require("mongoose");
 
-  let currentValue = 0;
-  const updateCounter = () => {
-    if (currentValue < target) {
-      currentValue += increment;
-      counter.innerText = Math.ceil(currentValue);
-      setTimeout(updateCounter, 75);
-    } else {
-      counter.innerText = target;
+const todoSchema = new mongoose.Schema({
+    item: { type: String, required: true },
+    time: { type: String, required: true },
+    date: { type: String, required: true },
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "User", // Make sure this matches the actual user model name
+        required: true
     }
-  };
+});
 
-  updateCounter();
-}
+const todoModel = mongoose.model("Todo", todoSchema);
+
+module.exports = todoModel;
+
 
 // Function to reset the counters to '0'
 function resetCounters() {
